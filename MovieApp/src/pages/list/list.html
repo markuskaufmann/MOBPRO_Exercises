@@ -1,0 +1,23 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Favorite Movies</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content>
+  <ion-list>
+    <button ion-item *ngFor="let movie of movies" (click)="movieSelected(movie)">
+      <ion-icon name="md-film" item-start></ion-icon>
+      {{ movie.Title }}
+    </button>
+  </ion-list>
+</ion-content>
+
+<ion-footer>
+  <div class="stretch ralign">
+    <ion-label>Movie App / HSLU I</ion-label>
+  </div>
+</ion-footer>

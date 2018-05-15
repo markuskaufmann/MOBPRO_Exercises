@@ -1,0 +1,28 @@
+<ion-header>
+  <ion-navbar>
+    <button ion-button menuToggle>
+      <ion-icon name="menu"></ion-icon>
+    </button>
+    <ion-title>Movie Details</ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content padding>
+  <h1>{{ movie.Title }}</h1>
+
+  <h4>{{ movie.Director }}</h4>
+
+  <h4>{{ movie.Country }}, {{ movie.Year }}</h4>
+
+  <p>
+    {{ movie.Plot }}
+  </p>
+
+  <ion-img class="detail_img" src="{{ movie.Poster }}" width="300px" height="450px" ></ion-img>
+</ion-content>
+
+<ion-footer>
+  <div class="stretch ralign">
+    <ion-label>Movie App / HSLU I</ion-label>
+  </div>
+</ion-footer>

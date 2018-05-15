@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Com. &amp; Con.</string>
+    <string name="mobpro">HSLU Mobile Programming</string>
+    <string name="introduction">Willkommen zum vierten Kursteil über Kommunikation und Nebenläufigkeit</string>
+    <string name="section_com">Com: Kommunikation</string>
+    <string name="section_con">Con: Nebenläufigkeit</string>
+</resources>
